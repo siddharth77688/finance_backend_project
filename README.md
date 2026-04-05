@@ -18,7 +18,7 @@ Based on the feature mapping requirements:
 
 ## Technology Stack
 
-- **Java 17**
+- **Java 21**
 - **Spring Boot 3.2.0**
 - **Spring Security** (JWT Authentication)
 - **Spring Data JPA**
@@ -28,7 +28,7 @@ Based on the feature mapping requirements:
 
 ## Prerequisites
 
-1. Java 17 or higher
+1. Java 21 or higher
 2. MySQL Server running locally
 3. Maven
 
@@ -164,6 +164,4 @@ Run tests with:
 mvn test
 ```
 
-## License
-
-MIT License
+PostMan Testing Outputs Link - https://docs.google.com/document/d/19_PzLPHDyQxay9c3EAeTkr8ZSX0wng-xi7nh1zGZjZs/edit?usp=sharing
