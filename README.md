@@ -19,7 +19,7 @@ Based on the feature mapping requirements:
 ## Technology Stack
 
 - **Java 21**
-- **Spring Boot 3.2.0**
+- **Spring Boot 3.4.0**
 - **Spring Security** (JWT Authentication)
 - **Spring Data JPA**
 - **MySQL 8**
