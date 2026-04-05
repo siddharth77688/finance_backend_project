@@ -66,7 +66,7 @@ class DashboardServiceTest {
     @Test
     void getDashboardSummary_withNullIncomeOnly() {
         when(recordRepository.countTotalRecords()).thenReturn(1L);
-        when(rcobecordRepository.getTotalIncome()).thenReturn(null);
+        when(recordRepository.getTotalIncome()).thenReturn(null);
         when(recordRepository.getTotalExpense()).thenReturn(new BigDecimal("5000"));
         when(recordRepository.getCategoryWiseSummary()).thenReturn(Collections.emptyList());
 
