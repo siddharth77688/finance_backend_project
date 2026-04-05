@@ -159,10 +159,19 @@ com.finance.demo/
 
 ## Testing
 
-Run tests with:
-```bash
-mvn test
-```
+Unit testing has been implemented for both controller and service layers.
 
-## PostMan Testing Output Link 
+- Controller Tests:
+  - UserControllerTest
+  - FinancialRecordControllerTest
+  - DashboardControllerTest
+
+- Service Tests:
+  - UserServiceTest
+  - FinancialRecordServiceTest
+  - DashboardServiceTest
+
+Mockito was used to mock dependencies and validate business logic independently.
+
+## API (PostMan) Testing Output Link 
 https://docs.google.com/document/d/19_PzLPHDyQxay9c3EAeTkr8ZSX0wng-xi7nh1zGZjZs/edit?usp=sharing
