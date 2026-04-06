@@ -83,6 +83,9 @@ java -jar target/financial-data-processing-1.0.0.jar
 - `PUT /api/records/{id}` - Update record (Admin only)
 - `DELETE /api/records/{id}` - Delete record (Admin only)
 
+### Swagger Link to test all API's
+https://amiable-kindness-production.up.railway.app/swagger-ui/index.html
+
 ### Dashboard
 - `GET /api/dashboard/summary` - Get dashboard summary (Viewer, Analyst, Admin)
 
