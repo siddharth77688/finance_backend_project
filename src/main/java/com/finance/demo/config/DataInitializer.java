@@ -56,10 +56,11 @@ public class DataInitializer implements CommandLineRunner {
     }
 
     private void initUsers() {
-        if (userRepository.count() == 0) {
-            Role adminRole = roleRepository.findByName(Role.RoleName.ADMIN).orElseThrow();
-            Role viewerRole = roleRepository.findByName(Role.RoleName.VIEWER).orElseThrow();
-            Role analystRole = roleRepository.findByName(Role.RoleName.ANALYST).orElseThrow();
+        Role adminRole = roleRepository.findByName(Role.RoleName.ADMIN).orElseThrow();
+        Role viewerRole = roleRepository.findByName(Role.RoleName.VIEWER).orElseThrow();
+        Role analystRole = roleRepository.findByName(Role.RoleName.ANALYST).orElseThrow();
+
+        if (!userRepository.existsByUsername("admin")) {
 
             User admin = User.builder()
                     .username("admin")
